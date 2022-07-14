@@ -17,7 +17,7 @@ const Header = ({poster}) => {
 
       <div className="title-wrapper">
         <h1 className="bot-title-show" to="/eth-bot/">
-          <span className="highlight-text">Ethereum</span> bot
+          eth<span className="highlight-text">LONG BOT</span>
         </h1>
       </div>
 
