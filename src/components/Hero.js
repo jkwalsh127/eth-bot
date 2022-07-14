@@ -12,7 +12,7 @@ function Hero({setPoster, poster}) {
             ETH <span className="highlight-text">Long Bot</span>.
           </h2>
           <h3 className='welcome-subheader'>
-            High frequency algorithm catches every climb.
+            This high frequency algorithm catches every climb.
           </h3>
         </h2>
       </div>
