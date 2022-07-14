@@ -8,7 +8,7 @@ function Hero({setPoster, poster}) {
     <div className='hero-container'>
       <div className={`${poster ? "hero-wrapper-hide" : "hero-wrapper-show"}`}>
         <div className='subheader-wrapper'>
-          <h3 className='welcome-subheader'>
+          <h3 className='welcome-subheader font-subheader'>
             This high frequency algorithm catches every climb.
           </h3>
         </div>
