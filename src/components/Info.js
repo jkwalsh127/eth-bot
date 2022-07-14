@@ -10,7 +10,7 @@ function Info() {
           <img className="backtest-results" src={photo} alt="backtest results" /> 
         </div>
         <p className='description-paragraph'>
-          <span className="custom-header">ETH </span><span className="name-highlight">Long Bot</span><span className="custom-header">.</span>
+          <span className="name-highlight">Ethereum</span><span className="custom-header">trading algoirthm.</span>
         </p>
         <p className='description-paragraph'>
           This is a high-latency algorithm, safely running on the Ethereum 8hr chart.
