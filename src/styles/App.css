@@ -69,7 +69,7 @@ body {
 .bot-title-show {
   font-size: 28px;
   color: var(--white);
-  width: 150px;
+  width: 200px;
   margin: 0;
 }
 /* Upon scrolling from top of page, header shrinks slightly and takes on a horizontal background gradient that matches the colors of the info component */
@@ -196,7 +196,7 @@ body {
   position: absolute;
   margin-top: 100vh;
   width: 100%;
-  z-index: 500;
+  z-index: 998;
 }
 /* Info wrapper sets the maximum width for the content, aligns the content in a flex column, and provides the content with a lighter background */
 .info-wrapper {

@@ -9,27 +9,34 @@ function Info() {
         <div className='backtest-wrapper'>
           <img className="backtest-results" src={photo} alt="backtest results" /> 
         </div>
-          <p className='description-paragraph'>
-            <span className="custom-header">The </span><span className="name-highlight">Workhorse</span><span className="custom-header">.</span>
-          </p>
-          <p className='description-paragraph'>
-            This script is all about staying on the right side of history.
-          </p>
-          <p className='description-paragraph'>
-            Powered by a high-latency algorithm that uses the same signals to flip between longs and shorts, this bot is built with the main purpose of always being in the right position for long-term trends. In practice, this means that the position the bot takes will flip at a relatively quicker rate during times of sideways price movement, but all in an effort to be in a position that capitalizes on prolonged periods of significant growth or decay.
-          </p>
-          <p className='description-paragraph'>
-            Running with BTC on a daily time-frame, the average time spent in a position is 19 days. While this is certainly a patient bot, we can tell that it is also selective by the fact that it spends an average of 32 days in winning trades, while only being in losing trades for an average of 10. Furthermore, winning trades are, on average, more than 3 times greater than losing trades, despite the win/loss ratio being a nearly even 45/55 split.
-          </p>
-          <p className='description-paragraph'>
-            The script is shown operating full-time from June of 2018 to June of 2022. During this 4 year period, Bitcoin produced a Buy and Hold return of 202%, while this algorithm produced a net profit of 3,480%. This outperforms the asset by over 17x. Not to mention, at the time of this publishing, the script has been sitting in a short for over 3 months and is currently up over 50% on the position. It is nice to have a hefty slice of your portfolio comfortably positioned during these volatile macro trends.
-          </p>
-          <p className='description-paragraph'>
-            This algorithm runs on the basic principles of a money-flow index, identifying over-sold or over-bought signals with calculations between price and volume. Tuning the inputs to maximize efficiency on this asset, the outputs that are generated are used to simultaneously open shorts when longs are closed, or open longs when shorts are closed. By always being in position on Bitcoin, it won't miss out on capitalizing during the notorious moon and bust cycles.
-          </p>
-          <p className='description-paragraph'>
-            The simplicity of this algorithm is it's beauty. It is always playing Bitcoin one way or the other, and it is always ahead of the game when storms start brewing.
-          </p>
+        <p className='description-paragraph'>
+          <span className="custom-header">The </span><span className="name-highlight">Workhorse</span><span className="custom-header">.</span>
+        </p>
+        <p className='description-paragraph'>
+          This is a high-latency algorithm, safely running on the Ethereum 8hr chart.
+          Executing trades on a multi-day timeframe makes it easy to enter and exit large positions, and without incurring excessive commission fees.          
+        </p>
+        <p className='description-paragraph'>
+          Being a Long Bot, this script performs best in general uptrends, but nonetheless proves efficient enough to run autonomously across many cycles. It is shown here operating full-time over a 5 year period, from the ETH/USDT launch on Binance in August of 2017, through June of 2022, the time of publishing this script.<br/>
+          While Buying and Holding Ethereum over this time would've netted you 267%, the algorithm produced a net profit of 6,067% over the same time frame.<br/>
+          This outperforms the market by nearly 23x, and equates to a 60x return on investment over 5 years.
+        </p>
+        <p className='description-paragraph'>
+          The strategy behind this algorithm is to always capitalize on significant jumps in the market. This is accomplished by using a simple combination of RSIs:<br/>
+          - One RSI uses VWAP as a source, which is primarily responsible for entering growth trends whenever the begin on a micro level<br/>
+          - And the other is a Stochastic RSI , which is primarily responsible for identifying exhausted periods of growth on a macro level<br/>
+          To sustain the algorithm when not in bullish macro trends, a standard MFI is used to enter and exit trades off of this calculation's basic principles.
+        </p>
+        <p className='description-paragraph'>
+          These indicators are calibrated so that, when price action is resetting, the bot can jump in and out of trades to improve its position, but is then able to remain in positions during uptrends that are backed by volume, in order to achieve maximum gains.<br/>
+          Statistics in the Performance Summary show how this strategy plays out in the trade metrics. Specifically, winning trades are almost 2 times larger than losing trades, on average, and they also last for an average of 5 days, whereas losing trades usually last about 2.
+        </p>
+        <p className='description-paragraph'>
+          In summary, the boom and bust cycles, both small and large, that Ethereum has produced since 2017 prove to have been enough to sustain this single algorithm. Over the 5 year period, the script could've comfortably traded in bad markets while always being poised to capitalize on the asset's sporadic, but significant, gains.
+        </p>
+        <p className='description-paragraph'>
+          Except in the belly of bear markets, I let this Long Bot run with a portion of the portfolio full-time.
+        </p>
       </div>
       <Footer />
     </div>

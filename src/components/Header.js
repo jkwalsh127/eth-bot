@@ -17,7 +17,7 @@ const Header = ({poster}) => {
 
       <div className="title-wrapper">
         <h1 className={` ${poster ? "bot-title-show" : "bot-title-hide"} `} to="/btc-bot/">
-          <span className="highlight-text">BTC</span> bot
+          <span className="highlight-text">ETH</span> bot
         </h1>
       </div>
 
