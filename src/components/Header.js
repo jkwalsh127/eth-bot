@@ -13,7 +13,7 @@ const Header = ({poster}) => {
   }, []);
 
   return (
-    <header className={`header ${poster && small ? "small" : ""}`}>
+    <header className={`header ${ small ? "small" : ""}`}>
 
       <div className="title-wrapper">
         <h1 className="bot-title-show" to="/eth-bot/">
