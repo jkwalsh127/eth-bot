@@ -7,14 +7,11 @@ function Hero({setPoster, poster}) {
   return (
     <div className='hero-container'>
       <div className={`${poster ? "hero-wrapper-hide" : "hero-wrapper-show"}`}>
-        <h2>
-          <h2 className='welcome-header'>
-            ETH <span className="highlight-text">Long Bot</span>.
-          </h2>
+        <div className='subheader-wrapper'>
           <h3 className='welcome-subheader'>
             This high frequency algorithm catches every climb.
           </h3>
-        </h2>
+        </div>
       </div>
       <video className={`${poster ? "video-hide" : "video-show"}`} autoPlay muted onEnded={() => setPoster(true)}>
           <source
