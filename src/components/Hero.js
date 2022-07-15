@@ -1,6 +1,5 @@
 import video from './videos/eth-bot.mp4';
 import photo from './images/eth-bot.png';
-import useWindowDimensions from './utils/windowDimensions';
 
 function Hero({setPoster, poster}) {
 
