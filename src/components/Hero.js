@@ -1,10 +1,11 @@
 import video from './videos/eth-bot.mp4';
 import photo from './images/eth-bot.png';
+import useWindowDimensions from './utils/windowDimensions';
 
 function Hero({setPoster, poster}) {
-    
 
   return (
+
     <div className='hero-container'>
       <div className={`${poster ? "hero-wrapper-hide" : "hero-wrapper-show"}`}>
         <div className='subheader-wrapper'>
@@ -21,7 +22,8 @@ function Hero({setPoster, poster}) {
       </video>  
       <img className={`${poster ? "image-show" : "image-hide"}`} src={photo} alt="hero" />     
     </div>
-  );
+
+);
 };
 
 export default Hero;
