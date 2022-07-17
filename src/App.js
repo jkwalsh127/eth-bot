@@ -6,6 +6,7 @@ import './styles/App.css';
 import './styles/AppMediaQuery.css';
 import Header from './components/Header';
 import Landing from './pages/Landing';
+import Footer from './components/Footer';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -46,6 +47,7 @@ function App() {
             element={<Landing poster={poster} setPoster={setPoster}/>}
           />
         </Routes>
+        <Footer />
 
       </Router>
     </ApolloProvider>

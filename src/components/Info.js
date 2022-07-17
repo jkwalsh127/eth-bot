@@ -1,6 +1,5 @@
 import React from 'react';
 import photo from './images/eth-bot-results.png';
-import Footer from './Footer';
 
 function Info() {
   return (
@@ -38,7 +37,6 @@ function Info() {
           Except in the belly of bear markets, I let this Long Bot run with a portion of the portfolio full-time.
         </p>
       </div>
-      <Footer />
     </div>
   );
 };
