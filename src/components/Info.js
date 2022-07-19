@@ -5,6 +5,11 @@ function Info() {
   return (
     <div className="info-container">
       <div className='info-wrapper'>
+        <div className='backtest-info-wrapper'>
+          <p className='backtest-info font-subheader'>
+            The image below displays the results of this algorithm's "backtest", which is its performance assessment over a given period of time. This algorithm is shown operating full time from August of 2017 through June of 2022. The starting equity is defaulted to $1,000, but because the operator's equity can vary widely, the most relevent information is the percent return value for net profit, for which this algorithm produces over 6,000%.
+          </p>
+        </div>
         <div className='backtest-wrapper'>
           <img className="backtest-results" src={photo} alt="backtest results" /> 
         </div>
